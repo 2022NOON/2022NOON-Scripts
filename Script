@@ -1,4 +1,8 @@
-game.Players.LocalPlayer.PlayerScripts.TS.modules.experience["experience-listener"].Disabled = true
+if _G.DisableXP == true then
+    game.Players.LocalPlayer.PlayerScripts.TS.modules.experience["experience-listener"].Disabled = true
+else
+    game.Players.LocalPlayer.PlayerScripts.TS.modules.experience["experience-listener"].Disabled = false
+end
 
 spawn (function()
     while _G.AutoTools == true do wait()
